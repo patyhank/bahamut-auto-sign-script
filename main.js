@@ -250,7 +250,7 @@
                 headers: {
                     "Content-Type": "application/x-www-form-urlencoded",
                 },
-                data: "sn=" + sn,
+                data: "gsn=" + sn,
                 cache: false,
                 responseType: "json",
                 onload: data => resolve(data.response),
